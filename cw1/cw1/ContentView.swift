@@ -128,7 +128,7 @@ struct ContentView: View {
                     
                    
                     
-                        }.background(Color.white)
+                        }.background(Color.white).frame( height:40)
                         
                             
                            
@@ -145,7 +145,7 @@ struct ContentView: View {
                 
                 
                 
-                    }.opacity(0.9)
+                    }.background(Color.white.opacity(0.2))
             }
         }.ignoresSafeArea()
     }
